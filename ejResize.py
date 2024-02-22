@@ -1,3 +1,4 @@
+#Importar bibliotecas necesarias
 import cv2
 
 img = cv2.imread("gabriel-mihalcea.png")
