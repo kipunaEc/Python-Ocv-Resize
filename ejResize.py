@@ -1,7 +1,7 @@
 #Importar bibliotecas necesarias
 import cv2
-
-img = cv2.imread("gabriel-mihalcea.png")
+#Usa el nombre correcto de la imagen
+img = cv2.imread("g-mihalcea.png")
 f, c , _ = img.shape
 porcentaje = 50
 columnas = (c*porcentaje)//100
