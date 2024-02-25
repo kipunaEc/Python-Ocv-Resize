@@ -7,7 +7,7 @@ porcentaje = 50
 columnas = (c*porcentaje)//100
 filas = (f*porcentaje)//100
 #imgR = cv2.resize(img, (columnas, filas))
-
+#Redimensinar
 imgR = cv2.resize(img,None, fx = 1.5, fy=1.5)
 
 cv2.imshow("Imagen Original", img)
